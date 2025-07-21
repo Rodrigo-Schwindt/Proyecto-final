@@ -1,0 +1,46 @@
+.footer{
+    width: 100%;
+    height: 2rem;
+    background-color: #e8f009;
+}
+.footer-2{
+    width: 100%;
+    height: 30rem;
+    background-color: #000;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    padding-block-start: 4rem;
+}
+.contacto{
+    display: flex;
+    height: 2rem;
+    width: 25%;
+    padding-inline-start: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.form p{
+    font-size: 2rem;
+    color: #a5a5a3;
+    padding-block-end: 1rem;
+    font-weight: bold;
+}
+.mensaje{
+    display: flex;
+    height: 8rem;
+    width: 25%;
+    padding-inline-start: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block-start: .4rem;
+    gap: 2rem;
+}
