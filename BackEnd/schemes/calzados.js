@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const calzadosSchema = new mongoose.Schema({
-    name: String,
+    title: String,
     price: String,
     size: String,
     brand: String, 

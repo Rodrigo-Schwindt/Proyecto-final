@@ -67,10 +67,13 @@ export function Shop() {
   useEffect(() => {
     getProductos();
   }, []);
+  useEffect(() => {
+    getProductos();
+  }, [handleSubmit]);
 
   return (
     <div className="shop-container">
-      <div className="grid-aside">
+      <div className="grid-aside aside">
         <div className="aside shadow">
           <h2>Filtros</h2>
           <h2>Categorías</h2>
@@ -80,25 +83,17 @@ export function Shop() {
           <p>ejemplo</p>
           <p>ejemplo</p>
           <p>ejempl0</p>
-          <p>ejemplo</p>
-          <p>ejemplo</p>
-          <p>ejemplo</p>
-          <p>ejemplo</p>
-          <p>ejemplo</p>
-          <p>ejemplo</p>
         </div>
       </div>
-
       <div className="grid-shop">
-        <div className="faplus" onClick={() => setFormulario(!formulario)}>
-          <FaPlus />
-        </div>
-
+      <div className="faplus" onClick={() => setFormulario(!formulario)}>
+        <FaPlus />
+      </div>
         {productos.length > 0 ? (
-          productos.map((item, index) => (
+          [...productos].reverse().map((item, index) => (
             <div className="shadow" key={index}>
               <div className="grid-shop-children">
-                <img src="imagen.png" alt={item.title} />
+                <img src="imagen.png" alt="imagen" />
               </div>
               <h3>{item.title}</h3>
               <p>Precio: ${item.price}</p>

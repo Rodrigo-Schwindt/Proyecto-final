@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Header.css"
 import { Search } from "./search/Search"
-import { FaShoppingCart, FaWhatsapp, FaStar, FaUser  } from "react-icons/fa";
+import { FaShoppingCart, FaUser  } from "react-icons/fa";
 
 
 export function Header(){
