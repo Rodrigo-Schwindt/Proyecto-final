@@ -1,110 +1,11 @@
 [{
   "_id": {
-    "$oid": "687eb565d4516ad1ebc63309"
+    "$oid": "687ed8efa5123476fdb3fee7"
   },
+  "title": "ejemplo",
   "price": "ejemplo",
   "size": "ejemplo",
   "brand": "ejemplo",
   "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb565d4516ad1ebc6330b"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb565d4516ad1ebc6330d"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb565d4516ad1ebc6330f"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb566d4516ad1ebc63311"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb566d4516ad1ebc63313"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb566d4516ad1ebc63315"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb566d4516ad1ebc63317"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687eb567d4516ad1ebc63319"
-  },
-  "price": "ejemplo",
-  "size": "ejemplo",
-  "brand": "ejemplo",
-  "description": "ejemplo",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687ebe11a70aeb69df828122"
-  },
-  "price": "asd",
-  "size": "sad",
-  "brand": "asd",
-  "description": "asd",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "687ebe12a70aeb69df828124"
-  },
-  "price": "asd",
-  "size": "sad",
-  "brand": "asd",
-  "description": "asd",
   "__v": 0
 }]
